@@ -1,0 +1,877 @@
+
+
+body {
+  margin: 0;
+  font-family: Gotham SSm !important;
+}
+
+.header {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header .middel .navbar ul  {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+
+}
+
+.header .middel .navbar ul a li  {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    gap: 20px;
+
+}
+
+.header .middel .navbar a  {
+
+  text-decoration: none;
+  color: black;
+
+}
+
+
+
+/* bootstarp */
+
+/* Navbar container */
+.navbar {
+    overflow: hidden;
+    /* background-color: #333; */
+    font-family: Arial;
+  }
+  
+  /* Links inside the navbar */
+  .navbar a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* The dropdown container */
+  .dropdown {
+    float: left;
+    overflow: hidden;
+  }
+  
+  /* Dropdown button */
+  .dropdown .dropbtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font: inherit; /* Important for vertical align on mobile phones */
+    margin: 0; /* Important for vertical align on mobile phones */
+    font-family: Gotham SSm !important;
+  }
+  
+  /* Add a red background color to navbar links on hover */
+  .navbar a:hover, .dropdown:hover .dropbtn {
+    /* background-color: rgb(230, 230, 230); */
+    transition: 3s;
+  }
+  
+  /* Dropdown content (hidden by default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #ffffff;
+    width: 100%;
+    left: 0;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+   
+    
+  }
+  
+  /* Mega Menu header, if needed */
+  .dropdown-content .header {
+    background: red;
+    padding: 16px;
+    color: white;
+  }
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {
+    display: block;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    overflow: hidden;
+
+  }
+  
+  /* Create three equal columns that floats next to each other */
+  .column {
+    float: left;
+    /* width: 33.33%; */
+    width: 100%;
+    padding: 10px;
+    /* background-color: #ccc; */
+    height: 250px;
+    display: flex;
+    align-items: center;
+  }
+  
+  /* Style links inside the columns */
+  .column a {
+    float: none;
+    color: black;
+    padding: 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  /* Add a background color on hover */
+  /* .column a:hover {
+    background-color: #ddd;
+  } */
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  .row {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    /* padding-left: 100px; */
+    
+  }
+  .dropdown .dropbtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: black;
+    padding: 14px 16px;
+    background-color: inherit;
+    font: inherit;
+    margin: 0;
+}
+
+.column .fc h5 {
+    font-size:20px ;
+    padding-left: 70px;
+    margin: 0;
+}
+
+.column .fc img {
+
+    display: block;
+    width: 250px;
+}
+
+.column .list ul {
+    border-left: 1px solid #58555517;;
+    
+}
+.column .list ul li {
+
+    list-style:none ;
+}
+
+.column .list a {
+    text-decoration: none;
+    padding: 7px;
+}
+
+.column .text{
+    display: flex;
+    font-size: 12px;
+    padding-left: 50px;
+}
+.column .text li{
+    list-style: none;
+    text-decoration: underline;
+
+}
+
+.column .text a{
+    text-decoration: none;
+}
+
+
+button {
+    background: none;
+    border: none;
+    text-decoration: underline;
+    padding-left: 70px;
+   
+}
+
+.dropbtn {
+   text-decoration: none;
+}
+.dropbtn:hover {
+  background-color: rgb(237, 237, 237);
+}
+
+/* column repit */
+
+.row5 {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding-bottom: 80px;
+  align-items: center;
+  
+}
+
+.column5 .list ul {
+    border:none !important;
+
+    
+}
+
+.column5 {
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+    /* background-color: #ccc; */
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+  }
+  
+  /* Style links inside the columns */
+  .column5 a {
+    float: none;
+    color: black;
+    padding: 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+
+.column5 .list ul {
+    border-left: 1px solid;
+    
+}
+.column5 .list ul li {
+
+    list-style:none ;
+}
+
+.column5 .list a {
+    text-decoration: none;
+    padding: 7px;
+}
+   
+
+
+/* right-site */
+ 
+.right {
+  font-size: 25px;
+  color: rgb(0, 0, 0);
+  padding-right: 20px;
+}
+
+.right a{
+  color: #000000;
+}
+.right img {
+ width: 30px;
+}
+ 
+
+
+    /* mobile-menu */
+
+    .mobile-menu .menu{
+
+      font-size: 20px;
+      border: none;
+      text-decoration: none;
+      padding: 5px 10px;
+      background-color: rgb(238 238 238 / 38%);
+   }
+   
+   
+   .open-menu .xmark {
+    display: flex;
+    justify-content: end;
+    padding: 10px;
+   
+   }
+   
+   svg.svg-inline--fa.fa-xmark {
+     font-size: 33px;
+   }
+   
+
+   .open-menu .mm .fm {
+   
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     padding: 10px;
+   }
+   .open-menu .mm2 .fm {
+   
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+  }
+   
+   .drop-open .top {    
+     display: flex;
+     justify-content: space-between;
+     padding: 10px;
+     align-items: center;
+   }
+   .drop-open2 .top {    
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    align-items: center;
+  }
+  
+   
+   .f-column {
+     display: flex;
+     justify-content: center;
+   }
+   .f-column .fc h5 {
+     font-size:20px ;
+     padding-left: 70px;
+     margin: 0;
+   }
+   
+   .f-column .fc img {
+   
+     display: block;
+     width: 250px;
+   }
+   
+   .f-column .list ul {
+     border-left:1px solid #58555517;
+     
+   }
+   .f-column .list ul li {
+   
+     list-style:none ;
+   }
+   
+   .f-column .list a {
+     text-decoration: none;
+     padding: 7px;
+   }
+   
+   .f-column .text{
+     display: flex;
+     font-size: 12px;
+     padding-left: 50px;
+     gap: 10px;
+     padding-left: 72px;
+   }
+   .f-column .text li{
+     list-style: none;
+     text-decoration: underline;
+   
+   }
+   
+   .f-column .text a{
+     text-decoration: none;
+     color: black;
+   }
+   
+   
+   
+     /* second-column */
+   
+   
+     .s-column {
+       display: flex;
+       justify-content: center;
+       
+     }
+     .s-column .fc h5 {
+       font-size:20px ;
+       padding-left: 70px;
+       margin: 0;
+     }
+     
+     .s-column .fc img {
+     
+       display: block;
+       width: 250px;
+     }
+     
+     .s-column .list ul {
+       border-left: 1px solid #58555517;
+       
+     }
+     .s-column .list ul li {
+     
+       list-style:none ;
+     }
+     
+     .s-column .list a {
+       text-decoration: none;
+       padding: 7px;
+     }
+     
+     .s-column .text{
+       display: flex;
+       font-size: 12px;
+       padding-left: 50px;
+       gap: 10px;
+       padding-left: 72px;
+     }
+     .s-column .text li{
+       list-style: none;
+       text-decoration: underline;
+     
+     }
+     
+     .s-column .text a{
+       text-decoration: none;
+       color: black;
+     }
+     
+     .s-column {
+      border-bottom: 1px solid ;
+      padding-bottom: 20px;
+      border-bottom: 1px solid #58555517;
+      
+     }
+
+      /* therd-column  */
+
+     .t-column.list ul {
+      border-left: 1px solid #58555517;;
+      
+      }
+  .t-column .list ul li {
+  
+      list-style:none ;
+      color: black;
+  }
+
+  
+  .t-column .list a {
+      text-decoration: none;
+      padding:15px;
+      font-size: 20px;
+  }
+
+
+  /* therd-drobdowm */
+
+
+  .drop-open3 .top {    
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    align-items: center;
+  }
+
+  .open-menu .mm3 .fm {
+   
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+  }
+
+    /* four-drobdowm */
+
+
+    .t-column {
+      display: flex;
+      justify-content: space-evenly;
+  }
+    .drop-open4 .top {    
+      display: flex;
+      justify-content: space-between;
+      padding: 10px;
+      align-items: center;
+    }
+  
+    .open-menu .mm4 .fm {
+     
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 10px;
+    }
+
+
+     /* five-drobdowm */
+
+
+
+     .drop-open5 h3 {
+
+      font-size: 20px;
+      padding: 10px;
+     }
+
+
+     .drop-open6 h3 {
+
+      font-size: 20px;
+      padding: 10px;
+     }
+
+  
+      
+     .world-mega{
+
+      display: flex;
+      justify-content: space-evenly;
+      align-items: center;
+      padding-bottom: 30px;
+     }
+
+     .hero-section {
+      position: absolute;
+      top: -3px;
+      width: 100%;
+      z-index: -1;
+      height: 500vh;
+  }
+
+
+
+
+
+    /* slider */
+
+
+    /* Slideshow container */
+.slideshow-container {
+  width: 100%;
+  position: relative;
+  margin: auto;
+  overflow: hidden;
+  top: -46px;
+  z-index: -1;
+
+  
+}
+
+.slideshow-container img {
+  height: 110vh;
+}
+
+/* Caption text */
+.text2 {
+  color: #f2f2f2;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  left: 0;
+  width: 100%;
+  top: 50%;
+}
+
+.text2 p{
+
+  width: 30%;
+  font-family: Gotham SSm !important;
+  
+}
+.text2 h1{
+
+  width: 30%;
+  font-family: Gotham SSm !important;
+
+
+}
+
+
+.text2 .btn {
+
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  padding: 10px 20px;
+  text-decoration: none;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #000000;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+  display: none;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+.dot-m {
+  position: absolute;
+  top: 50%;
+  left: 10px;
+}
+
+.active {
+  background-color: #000000;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+
+
+   /* section-1 start */
+
+   .section-one{
+    background-image: url('image/hero-car2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    width: 100%;
+    top: -70px;
+    color: white;
+}
+
+.section-two{
+  background-image: url('image/hero-car.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  width: 100%;
+  top: -70px;
+  color: white;
+}
+
+.section-three{
+  background-image: url('image/hero-car3.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  width: 100%;
+  top: -70px;
+  color: white;
+}
+
+
+
+.section-one .step-1 {
+
+  text-align: center;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+ .section-one .step-2 {
+
+    text-align: center;
+    padding-top: 100px;
+  padding-bottom: 100px;
+ }
+ 
+ .section-one .step-2 .btn2 {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+
+ }
+ .section-two .step-2 .btn2 {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+
+ }
+ .section-three .step-2 .btn2 {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+
+ }
+ .section-one .step-2 .btn2 span {
+
+  background-color: rgb(255, 255, 255);
+  padding: 10px 50px;
+  border: 1px solid white;
+  color: #000000;
+ }
+
+ .section-one .step-2 .btn2 .sb {
+
+  background-color: rgb(71, 71, 71);
+  padding: 10px 50px;
+  border: 1px solid rgb(71, 71, 71);
+  color: #ffffff;
+ }
+
+ .section-two .step-2 .btn2 span {
+
+  background-color: rgb(255, 255, 255);
+  padding: 10px 50px;
+  border: 1px solid white;
+  color: #000000;
+ }
+
+ .section-two .step-2 .btn2 .sb {
+
+  background-color: rgb(71, 71, 71);
+  padding: 10px 50px;
+  border: 1px solid rgb(71, 71, 71);
+  color: #ffffff;
+ }
+
+
+ .section-three .step-2 .btn2 span {
+
+  background-color: rgb(255, 255, 255);
+  padding: 10px 50px;
+  border: 1px solid white;
+  color: #000000;
+ }
+
+ .section-three .step-2 .btn2 .sb {
+
+  background-color: rgb(71, 71, 71);
+  padding: 10px 50px;
+  border: 1px solid rgb(71, 71, 71);
+  color: #ffffff;
+ }
+
+
+
+
+
+
+
+
+   .section-two .step-1 {
+
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+ }
+
+   .section-two .step-2 {
+
+      text-align: center;
+      padding-top: 100px;
+    padding-bottom: 100px;
+   }
+ 
+
+
+
+   
+   .section-three .step-1 {
+
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+ }
+
+   .section-three .step-2 {
+
+      text-align: center;
+      padding-top: 100px;
+    padding-bottom: 100px;
+   }
+  
+
+
+   .foo h4 {
+    text-align: center;
+   }
+
+
+   /* form */
+ 
+   .contact-container{
+
+    padding-bottom:50px ;
+   }
+   .contact-container .submit{
+
+     text-decoration: none;
+     padding: 8px 50px;
+     background-color: rgb(25, 25, 186);
+     color: white;
+     border-radius: 30px;
+     position: relative;
+     left: 25%;
+     margin-bottom: 25px;
+
+   }
+ 
+   hr {
+    height: 3px;
+    background-color: rgb(19, 19, 155);
+   }
+
+   .contact-container{
+
+    height: 50vh;
+    display:flex ;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #ffffff;
+   }
+
+   .contact-left {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 20px;
+   }
+
+   .contact-inputs {
+    width: 400px;
+    height: 50px;
+    border: none;
+    outline: none;
+    padding-left: 25px;
+    font-weight: 500;
+    color: #000000;
+    border-radius: 50px;
+    box-shadow: 0px 0px 2px #0000008f;
+   }
+
+
+
+   .contact-left textarea{
+    height: 140px;
+    padding-top:15px;
+    
+   }
